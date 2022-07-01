@@ -1,0 +1,7 @@
+com\segmentify\web\qa\webdriver\WebDriverFactory.class
+com\segmentify\web\qa\pages\searchPage\SearchPage.class
+com\segmentify\web\qa\pages\homePage\HomePage.class
+com\segmentify\web\qa\util\BrowserType.class
+com\segmentify\web\qa\webdriver\WebDriverFactory$1.class
+com\segmentify\web\qa\pages\loginPage\LoginPage.class
+com\segmentify\web\qa\pages\BasePage.class

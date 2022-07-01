@@ -1,0 +1,322 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1762000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to amazon.com.tr homepage",
+            "match": {
+              "location": "com.segmentify.web.qa.steps.BaseSteps.iNavigateToHepsiburadaHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T14:27:36.180Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2761000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.segmentify.web.qa.steps.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Check success login and then success logout case",
+        "description": "",
+        "id": "control-of-login-and-product-search-screens;check-success-login-and-then-success-logout-case",
+        "after": [
+          {
+            "result": {
+              "duration": 697000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.segmentify.web.qa.steps.Hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8152000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user login system",
+            "match": {
+              "location": "com.segmentify.web.qa.steps.BaseSteps.userLoginSystem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the page must have \"Hesabım\" content",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hesabım\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.segmentify.web.qa.steps.BaseSteps.thePageMustHaveContent(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 870000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user logout system",
+            "match": {
+              "location": "com.segmentify.web.qa.steps.BaseSteps.userLogoutSystem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the page must have \"Giriş yap\" content",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Giriş yap\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.segmentify.web.qa.steps.BaseSteps.thePageMustHaveContent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@done"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@logout"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1904000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to amazon.com.tr homepage",
+            "match": {
+              "location": "com.segmentify.web.qa.steps.BaseSteps.iNavigateToHepsiburadaHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T14:27:50.612Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2361000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.segmentify.web.qa.steps.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "control of the search of the products with and without results in the search",
+        "description": "",
+        "id": "control-of-login-and-product-search-screens;control-of-the-search-of-the-products-with-and-without-results-in-the-search;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 732000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.segmentify.web.qa.steps.Hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1950000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user search product \"Televizyon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Televizyon\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.segmentify.web.qa.steps.BaseSteps.userSearchProduct(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10058000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "confirm search result",
+            "match": {
+              "location": "com.segmentify.web.qa.steps.BaseSteps.ConfirmSearchResult()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@done"
+          },
+          {
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1895000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to amazon.com.tr homepage",
+            "match": {
+              "location": "com.segmentify.web.qa.steps.BaseSteps.iNavigateToHepsiburadaHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T14:28:07.625Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2422000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.segmentify.web.qa.steps.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "control of the search of the products with and without results in the search",
+        "description": "",
+        "id": "control-of-login-and-product-search-screens;control-of-the-search-of-the-products-with-and-without-results-in-the-search;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 667000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.segmentify.web.qa.steps.Hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1506000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user search product \"\u003d1-234093584790241o[pkej2roy4h3o1p3;kemrn.2kbho\u00271pu3o;jer2uo1y4e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003d1-234093584790241o[pkej2roy4h3o1p3;kemrn.2kbho\u00271pu3o;jer2uo1y4e\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.segmentify.web.qa.steps.BaseSteps.userSearchProduct(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10085000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "confirm search result",
+            "match": {
+              "location": "com.segmentify.web.qa.steps.BaseSteps.ConfirmSearchResult()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@done"
+          },
+          {
+            "name": "@search"
+          }
+        ]
+      }
+    ],
+    "name": "Control of login and product search screens",
+    "description": "",
+    "id": "control-of-login-and-product-search-screens",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/segmentify/web/qa/features/amazoncom.feature",
+    "tags": []
+  }
+]

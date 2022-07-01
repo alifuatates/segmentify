@@ -1,0 +1,4 @@
+ReadWrite.class
+com\segmentify\web\qa\steps\BaseSteps.class
+com\segmentify\web\qa\steps\Hooks.class
+TestRunner.class

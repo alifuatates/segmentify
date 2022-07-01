@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="48.11">
+<testcase classname="Control of login and product search screens" name="Check success login and then success logout case" time="14.428">
+<system-out><![CDATA[Given I navigate to amazon.com.tr homepage..................................passed
+When user login system......................................................passed
+Then the page must have "Hesabım" content...................................passed
+And user logout system......................................................passed
+Then the page must have "Giriş yap" content.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Control of login and product search screens" name="control of the search of the products with and without results in the search" time="17.011">
+<system-out><![CDATA[Given I navigate to amazon.com.tr homepage..................................passed
+When user search product "Televizyon".......................................passed
+Then confirm search result..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Control of login and product search screens" name="control of the search of the products with and without results in the search 2" time="16.582">
+<system-out><![CDATA[Given I navigate to amazon.com.tr homepage..................................passed
+When user search product "=1-234093584790241o[pkej2roy4h3o1p3;kemrn.2kbho'1pu3o;jer2uo1y4e".passed
+Then confirm search result..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
